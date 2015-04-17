@@ -1,0 +1,4 @@
+#Hive
+select stock_symbol,count(stock_volume) from nyse group by stock_symbol;
+
+
